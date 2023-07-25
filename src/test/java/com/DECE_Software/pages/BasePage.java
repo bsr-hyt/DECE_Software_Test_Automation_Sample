@@ -20,7 +20,7 @@ public class BasePage {
         //   Driver.get().findElement(By.xpath("//area[@title='"+string+"']")).click();
 
         /* Burada üstteki click metodu bazı buttonlarda çalışmadığı için
-        * aşağıdaki JavaScrypt kodu ile click yaptık*/
+        * aşağıdaki JavaScrypt kodu ile click yaptım*/
 
         WebElement button = Driver.get().findElement(By.xpath("//area[@title='" + string + "']"));
         JavascriptExecutor js = (JavascriptExecutor) Driver.get();
